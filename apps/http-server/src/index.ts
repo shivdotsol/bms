@@ -2,7 +2,7 @@ import express from "express";
 import { prisma } from "@repo/db/client";
 import brcypt from "bcrypt";
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 
